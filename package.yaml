@@ -1,0 +1,29 @@
+name:                adventofcode2018
+version:             0.1.0.0
+github:              "koterpillar/adventofcode2018"
+license:             BSD3
+author:              "Alexey Kotlyarov"
+maintainer:          "a@koterpillar.com"
+copyright:           "2018 Alexey Kotlyarov"
+
+extra-source-files:
+- README.md
+
+description:         Please see the README on GitHub at <https://github.com/koterpillar/adventofcode2018#readme>
+
+dependencies:
+- base >= 4.7 && < 5
+- conduit
+- containers
+- cryptonite
+- extra
+- lens
+- MissingH
+- mtl
+- parsec
+- split
+- utf8-string
+- vector
+
+library:
+  source-dirs: .
